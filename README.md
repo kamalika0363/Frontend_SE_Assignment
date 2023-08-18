@@ -14,6 +14,6 @@ npm run dev
 
 ## Folder Structure
 1. Render in src -> App.jsx
-2. Components -> FolderName (ex: FAQSection) -> index.js
+2. Components -> FolderName (ex: FAQSection) -> index.jsx
 3. Public -> FolderName -> images (if any)
 
