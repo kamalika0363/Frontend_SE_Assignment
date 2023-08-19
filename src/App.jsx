@@ -1,5 +1,5 @@
 
-import Index from "../components/FAQSection";
+import FAQ from "./components/FAQSection";
 import Analytics from "./components/Analytics section/analytics";
 import Features from "./components/Features"
 
@@ -11,6 +11,7 @@ function App() {
         <Hero/>
         <Features />
         <Analytics/>
+        <FAQ />
       </h1>
     </main>
   

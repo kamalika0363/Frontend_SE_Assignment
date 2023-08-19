@@ -8,7 +8,7 @@ function FAQ() {
     "How does billing work?",
     "How do I change my account email?"
   ]
-  return <div className="flex flex-col gap-16 py-24 items-center">
+  return <div className="flex flex-col gap-16 py-12 items-center">
     <div className="flex flex-col px-8 gap-5 items-center w-full sm:w-auto">
       <h1 className="text-gray-900 text-center text-3xl md:text-4xl font-semibold">Frequently asked questions</h1>
       <p className="text-gray-500 text-center text-lg md:text-xl font-normal">Everything you need to know about the product and billing.</p>
