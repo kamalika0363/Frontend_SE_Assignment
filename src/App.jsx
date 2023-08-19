@@ -8,12 +8,9 @@ function App() {
   return (
     <main>
       <h1 className='min-h-screen grid place-items-center'>
-        FrontEnd SE Assignment
         <Hero/>
         <Features />
         <Analytics/>
-        <Index />
-        
       </h1>
     </main>
   
