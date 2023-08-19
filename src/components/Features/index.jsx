@@ -65,7 +65,7 @@ function Features (){
 
             </div>
 
-            <div className="flex justify-around flex-wrap gap-8">
+            <div className="flex justify-around flex-wrap gap-8 sm:px-28 ">
             {/* svgs */}
 
                 {FeaturesArr.map ((step)=>(

@@ -17,7 +17,7 @@ function Hero() {
           <h1 className="text-2xl md:text-4xl font-semibold text-center flex-wrap">
             Beautiful analytics to grow smarter
           </h1>
-          <p className="text-gray-500 text-sm md:text-xs max-w-sm overflow-hidden text-center">
+          <p className="text-gray-500 text-sm md:text-md max-w-md overflow-hidden text-center">
             Powerful, self-serve product and growth analytics to help you
             convert, engage, and retain more users. Trusted by over 4,000
             startups.
