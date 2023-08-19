@@ -1,128 +1,36 @@
 import React from "react";
 
-function Hero() {
-  return (
-    <section className="flex mx-2 md:mx-4 flex-col items-center gap-12 pt-24">
-      <div className="top-container">
-        <div className="badge-section text-xs m-auto text-[#6941C6] flex gap-3 pt-1 pr-1 pb-1 pl-1 rounded-2xl w-max items-center justify-center bg-gray-100">
-          <p className="label-1 bg-white pl-1 pr-1 justify-start rounded-2xl">
-            New feature
-          </p>
-          <div className="label-2 flex gap-1">
-            <p>Checkout the team dashboard</p>
-            <img src="public/HeroSection/arrow-right.svg" alt="arrow-right" />
-          </div>
+function FAQ() {
+  const FAQdata = [
+    "Can I change my plan later?",
+    "What is your cancellation policy?",
+    "Can other info be added to an invoice?",
+    "How does billing work?",
+    "How do I change my account email?"
+  ]
+  return <div className="flex flex-col gap-16 py-24 items-center">
+    <div className="flex flex-col px-8 gap-5 items-center w-full sm:w-auto">
+      <h1 className="text-gray-900 text-center text-3xl md:text-4xl font-semibold">Frequently asked questions</h1>
+      <p className="text-gray-500 text-center text-lg md:text-xl font-normal">Everything you need to know about the product and billing.</p>
+    </div>
+    <div className="flex flex-col px-8 gap-6 items-center w-full sm:w-[36rem] md:w-[48rem]">
+      <div className="flex items-start gap-6">
+        <div className="flex flex-col gap-2 items-start">
+          <p className="text-gray-900 text-lg font-medium">Is there a free trial available?</p>
+          <p className="text-gray-500 text-base font-normal">Yes, you can try us for free for 30 days. If you want, we'll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>
         </div>
-        <div className="heading-section mt-3 flex flex-col gap-4 items-center">
-          <h1 className="text-2xl md:text-4xl font-semibold text-center flex-wrap">
-            Beautiful analytics to grow smarter
-          </h1>
-          <p className="text-gray-500 text-sm md:text-xs max-w-sm overflow-hidden text-center">
-            Powerful, self-serve product and growth analytics to help you
-            convert, engage, and retain more users. Trusted by over 4,000
-            startups.
-          </p>
-        </div>
-        <div className="btn-section flex justify-center gap-6 mt-8">
-          <button className="flex px-1 md:px-2 items-center gap-2 border rounded-md">
-            <img width={20} src="public/HeroSection/play-circle.svg" alt="play-circle" />
-            Demo
-          </button>
-          <button className="px-2 md:px-3 rounded-md bg-[#7F56D9] p-2 text-gray-50">
-            Sign up
-          </button>
-        </div>
+        <img src="/FAQSection/minusCircle.png" alt="" />
       </div>
-      <div className="bottom-container">
-        <div className="img-section">
-          <img
-            className="lg:w-[90%] m-auto"
-            src="public/HeroSection/Macbook-Pro-16-mockup.png"
-            alt="mackbook"
-          />
+      {FAQdata.map(content => {
+        return <div className="flex items-start justify-between gap-6 pt-6 border-t-[1px] border-t-gray-200 w-full">
+          <div className="flex flex-col gap-2 items-start">
+            <p className="text-gray-900 text-lg font-medium">{content}</p>
+          </div>
+          <img src="/FAQSection/plusCircle.png" alt="" />
         </div>
-        <p className="text-center text-sm mt-6 md:mt-10 text-gray-500">
-          Join 4,000+ companies already growing
-        </p>
-        <div className="company-section flex flex-col md:flex-row justify-between items-center md:mx-4 lg:mx-20 mt-8 mb-6 gap-8 md:gap-1">
-          <div className=" flex items-center gap-4 md:gap-2 company-1">
-            <div className="img-part">
-              <img
-                className="md:w-7"
-                width={40}
-                src="public/HeroSection/layers.svg"
-                alt=""
-              />
-            </div>
-            <div className="text-part font-semibold text-2xl md:text-lg">
-              Layers
-            </div>
-          </div>
-          <div className=" flex items-center gap-4 md:gap-2 company-2">
-            <div className="img-part">
-              <img
-                className="md:w-7"
-                width={30}
-                src="public/HeroSection/sisyphus.svg"
-                alt=""
-              />
-            </div>
-            <div className="text-part font-semibold text-2xl md:text-lg">
-              Sisyphus
-            </div>
-          </div>
-          <div className=" flex items-center gap-4 md:gap-2 company-3">
-            <div className="img-part">
-              <img
-                className="md:w-7"
-                width={40}
-                src="public/HeroSection/circooles.svg"
-                alt=""
-              />
-            </div>
-            <div className="text-part font-semibold  text-2xl md:text-lg">
-              Circooles
-            </div>
-          </div>
-          <div className=" flex items-center gap-4 md:gap-2 company-4">
-            <div className="img-part">
-              <img
-                className="md:w-7"
-                width={40}
-                src="public/HeroSection/catalog.svg"
-                alt=""
-              />
-            </div>
-            <div className="text-part font-semibold  text-2xl md:text-lg">
-              Catalog
-            </div>
-          </div>
-          <div className=" flex items-center gap-4 md:gap-2 company-5">
-            <div className="img-part">
-              <img
-                className="md:w-8"
-                width={40}
-                src="public/HeroSection/quotient.svg"
-                alt=""
-              />
-            </div>
-            <div className="text-part font-semibold  text-2xl md:text-lg">
-              Quotient
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+      })}
+    </div>
+  </div>;
 }
 
-export default Hero;
-
-// display: flex;
-// padding: 4px 10px 4px 4px;
-// align-items: center;
-// gap: 12px;
-// p-4 pt-4 pr-10 pb-4 pl-4
-// border-radius: 16px;
-// background: var(--primary-50, #F9F5FF);
-// mix-blend-mode: multiply;
+export default FAQ;
