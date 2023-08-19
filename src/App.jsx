@@ -1,12 +1,11 @@
 import React from "react";
-import Index from "../components/FAQSection";
+import Features from "./components/Features";
 function App() {
   return (
     <main>
-      <h1 className='min-h-screen grid place-items-center'>
-        FrontEnd SE Assignment
-        <Index />
-      </h1>
+
+      <Features />
+
     </main>
   );
 }
