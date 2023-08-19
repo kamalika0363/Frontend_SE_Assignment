@@ -7,16 +7,8 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'custom-background': "url(' /Analytics section/Image.png')",
-      },
-      backgroundSize: {
-        'cover': 'cover',
-      },
-      backgroundRepeat: {
-        'none': 'no-repeat',
-      },
+     
     },
   },
   plugins: [],
-}
+};
