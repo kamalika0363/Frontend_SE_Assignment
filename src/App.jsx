@@ -1,12 +1,16 @@
-
+import React from "react";
+import FAQ from "./components/FAQSection";
+// import Index from "../components/FAQSection";
 function App() {
   return (
-    <>
-      <h1 className='min-h-screen bg-slate-500 grid place-items-center'>
-          FrontEnd SE Assignment
-      </h1>
-    </>
-  )
+    <main>
+      {/* <h1 className='min-h-screen grid place-items-center'>
+        FrontEnd SE Assignment
+        <Index />
+      </h1> */}
+      <FAQ />
+    </main>
+  );
 }
 
-export default App
+export default App;
