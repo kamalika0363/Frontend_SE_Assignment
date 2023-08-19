@@ -1,12 +1,11 @@
 import React from "react";
-import Index from "../components/FAQSection";
+import Index from "./components/FAQSection";
+import Hero from "./components/HeroSection";
 function App() {
   return (
     <main>
-      <h1 className='min-h-screen grid place-items-center'>
-        FrontEnd SE Assignment
+        <Hero />
         <Index />
-      </h1>
     </main>
   );
 }
