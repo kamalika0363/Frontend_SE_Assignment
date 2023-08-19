@@ -1,12 +1,14 @@
 import React from "react";
-import Index from "../components/FAQSection";
+import UserSection from "./components/UserSection/UserSection";
+// import Index from "../components/FAQSection";
 function App() {
   return (
     <main>
-      <h1 className='min-h-screen grid place-items-center'>
+      <UserSection/>
+      {/* <h1 className='min-h-screen grid place-items-center'>
         FrontEnd SE Assignment
         <Index />
-      </h1>
+      </h1> */}
     </main>
   );
 }
