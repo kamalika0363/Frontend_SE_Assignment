@@ -1,7 +1,6 @@
 
 import UserSection from "./components/UserSection/UserSection";
-
-import Index from "../components/FAQSection";
+import FAQ from "./components/FAQSection";
 import Analytics from "./components/Analytics section/analytics";
 import Features from "./components/Features"
 
@@ -15,6 +14,7 @@ function App() {
         <Features />
         <UserSection/>
         <Analytics/>
+        <FAQ />
       </h1>
     </main>
   
