@@ -1,13 +1,16 @@
-import React from "react";
-import Index from "../components/FAQSection";
+
+
+import Analytics from "../components/Analytics section/analytics";
+
+
+
 function App() {
   return (
     <main>
-      <h1 className='min-h-screen grid place-items-center'>
-        FrontEnd SE Assignment
-        <Index />
-      </h1>
+      
+  <Analytics/>
     </main>
+  
   );
 }
 
