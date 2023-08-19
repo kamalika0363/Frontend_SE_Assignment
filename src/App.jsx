@@ -1,11 +1,11 @@
 import React from "react";
-import Index from "./components/FAQSection";
-import Hero from "./components/HeroSection";
+import Features from "./components/Features";
 function App() {
   return (
     <main>
-        <Hero />
-        <Index />
+
+      <Features />
+
     </main>
   );
 }
