@@ -13,7 +13,7 @@ function UserSection()
     </div>
    
     <div >
-       <div class=" flex justify-center "> <img  src="/UserSection/Avatar.png"></img></div>
+       <div class=" flex justify-center mt-8 "> <img  src="/UserSection/Avatar.png"></img></div>
        <h6 class="text-lg font-medium mt-4"> Candice Wu </h6>
        <h6 class="text-base font-light"> Product Manager, Sisyphus</h6>
     </div>
