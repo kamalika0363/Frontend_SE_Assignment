@@ -10,7 +10,7 @@ function Hero() {
           </p>
           <div className="label-2 flex gap-1">
             <p>Checkout the team dashboard</p>
-            <img src="public/arrow-right.svg" alt="arrow-right" />
+            <img src="public/HeroSection/arrow-right.svg" alt="arrow-right" />
           </div>
         </div>
         <div className="heading-section mt-3 flex flex-col gap-4 items-center">
@@ -25,7 +25,7 @@ function Hero() {
         </div>
         <div className="btn-section flex justify-center gap-6 mt-8">
           <button className="flex px-1 md:px-2 items-center gap-2 border rounded-md">
-            <img width={20} src="public/play-circle.svg" alt="play-circle" />
+            <img width={20} src="public/HeroSection/play-circle.svg" alt="play-circle" />
             Demo
           </button>
           <button className="px-2 md:px-3 rounded-md bg-[#7F56D9] p-2 text-gray-50">
@@ -37,7 +37,7 @@ function Hero() {
         <div className="img-section">
           <img
             className="lg:w-[90%] m-auto"
-            src="public/Macbook-Pro-16-mockup.png"
+            src="public/HeroSection/Macbook-Pro-16-mockup.png"
             alt="mackbook"
           />
         </div>
@@ -50,7 +50,7 @@ function Hero() {
               <img
                 className="md:w-7"
                 width={40}
-                src="public/layers.svg"
+                src="public/HeroSection/layers.svg"
                 alt=""
               />
             </div>
@@ -63,7 +63,7 @@ function Hero() {
               <img
                 className="md:w-7"
                 width={30}
-                src="public/sisyphus.svg"
+                src="public/HeroSection/sisyphus.svg"
                 alt=""
               />
             </div>
@@ -76,7 +76,7 @@ function Hero() {
               <img
                 className="md:w-7"
                 width={40}
-                src="public/circooles.svg"
+                src="public/HeroSection/circooles.svg"
                 alt=""
               />
             </div>
@@ -89,7 +89,7 @@ function Hero() {
               <img
                 className="md:w-7"
                 width={40}
-                src="public/catalog.svg"
+                src="public/HeroSection/catalog.svg"
                 alt=""
               />
             </div>
@@ -102,7 +102,7 @@ function Hero() {
               <img
                 className="md:w-8"
                 width={40}
-                src="public/quotient.svg"
+                src="public/HeroSection/quotient.svg"
                 alt=""
               />
             </div>
