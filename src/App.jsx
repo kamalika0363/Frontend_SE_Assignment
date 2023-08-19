@@ -1,4 +1,4 @@
-import React from "react";
+
 import Index from "../components/FAQSection";
 import Analytics from "./components/Analytics section/analytics";
 
