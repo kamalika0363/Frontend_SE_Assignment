@@ -1,5 +1,6 @@
 import React from "react";
 import UserSection from "./components/UserSection/UserSection";
+
 // import Index from "../components/FAQSection";
 function App() {
   return (
