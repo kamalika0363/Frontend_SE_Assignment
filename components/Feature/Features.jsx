@@ -1,5 +1,5 @@
 import React from 'react'
-import './Feature.css'
+
 import mail from '../../public/Features/cards/mail.svg'
 import zap from '../../public/Features/cards/zap.svg'
 import barchart from '../../public/Features/cards/bar-chart-2.svg'
@@ -31,7 +31,7 @@ export default function Features() {
     <div className="img-container relative">
        <div className="img-section relative">
           <img className="  lg:w-[80%] m-auto" src="public/Features/mock_dashboard.png" />
-          <img className="mobile absolute top-48 z-2 rounded-3xl w-[244px] h-[496px] lg:w-[22%] lg:h-[80%] md:w-[22%] md:h-[65%] sm:w-[22%] sm:h-[65%] m-auto " src="public/Features/mobile.png" />
+          <img className="mobile absolute top-36 z-2 rounded-2xl h-[85%] w-[35%] md:top-30 md:w-[30%] " src="public/Features/mobile.png" />
        </div>
   {/* ----------------------footer cards section---------------------- */}
        <div className="cards flex flex-wrap gap-6 pt-20 py-10 ">
