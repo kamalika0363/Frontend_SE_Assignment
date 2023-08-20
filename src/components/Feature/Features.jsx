@@ -1,9 +1,8 @@
 import React from 'react'
-
-import mail from '../../public/Features/cards/mail.svg'
-import zap from '../../public/Features/cards/zap.svg'
-import barchart from '../../public/Features/cards/bar-chart-2.svg'
-import arrow from '../../public/Features/cards/arrow-right.svg'
+import mail from '/Features/cards/mail.svg'
+import zap from '/Features/cards/zap.svg'
+import barchart from '/Features/cards/bar-chart-2.svg'
+import arrow from '/Features/cards/arrow-right.svg'
 
 
 export default function Features() {
