@@ -1,8 +1,8 @@
 import React from 'react'
-import mail from '/Features/cards/mail.svg'
-import zap from '/Features/cards/zap.svg'
-import barchart from '/Features/cards/bar-chart-2.svg'
-import arrow from '/Features/cards/arrow-right.svg'
+import mail from '/Features1/cards/mail.svg'
+import zap from '/Features1/cards/zap.svg'
+import barchart from '/Features1/cards/bar-chart-2.svg'
+import arrow from '/Features1/cards/arrow-right.svg'
 
 
 export default function Features1() {
@@ -29,8 +29,8 @@ export default function Features1() {
    {/* ----------------------image section---------------------- */}
     <div className="img-container relative">
        <div className="img-section relative">
-          <img className="  lg:w-[80%] m-auto" src="/Features/mock_dashboard.png" />
-          <img className="mobile absolute top-36 z-2 h-[85%] w-[35%] md:top-30 md:w-[30%] " src="/Features/mobile_screen.png" />
+          <img className="  lg:w-[80%] m-auto" src="/Features1/mock_dashboard.png" />
+          <img className="mobile absolute top-36 z-2 h-[85%] w-[35%] md:top-30 md:w-[30%] " src="/Features1/mobile_screen.png" />
        </div>
   {/* ----------------------footer cards section---------------------- */}
        <div className="cards flex flex-wrap gap-6 pt-20 py-10 ">
