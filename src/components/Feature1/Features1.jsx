@@ -5,7 +5,7 @@ import barchart from '/Features/cards/bar-chart-2.svg'
 import arrow from '/Features/cards/arrow-right.svg'
 
 
-export default function Features() {
+export default function Features1() {
   return (
     
  <section className="flex mx-2 md:mx-4 flex-col items-center gap-12 pt-24">

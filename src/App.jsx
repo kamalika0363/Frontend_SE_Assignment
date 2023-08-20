@@ -1,11 +1,9 @@
 import React from "react";
-// import Index from "./components/FAQSection";
-import Features from './components/Feature/Features';
+import Features1 from "./components/Feature1/Features1";
 function App() {
   return (
     <main>
-    {/* <Index /> */}
-    <Features />
+    <Features1 />
     </main>
   );
 }
