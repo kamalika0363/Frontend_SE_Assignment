@@ -29,8 +29,8 @@ export default function Features1() {
    {/* ----------------------image section---------------------- */}
     <div className="img-container relative">
        <div className="img-section relative">
-          <img className="  lg:w-[80%] m-auto" src="/Features1/mock_dashboard.png" />
-          <img className="mobile absolute top-36 z-2 h-[85%] w-[35%] md:top-30 md:w-[30%] " src="/Features1/mobile_screen.png" />
+          <img className="  lg:w-[80%] m-auto" src="/Features1/desktop.svg" />
+          <img className="mobile absolute top-36 z-2 h-[85%] w-[35%] md:top-30 md:w-[30%] " src="/Features1/iPhone.svg" />
        </div>
   {/* ----------------------footer cards section---------------------- */}
        <div className="cards flex flex-wrap gap-6 pt-20 py-10 ">
