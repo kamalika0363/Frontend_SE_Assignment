@@ -78,7 +78,7 @@ function Footer() {
       <hr className="w-[90%] m-auto" />
       <div className="bottom mt-6 mb-6 md:mb-8 flex gap-2 justify-between mx-2 md:mx-8 items-center">
         <div className="footer-logo text-black md:text-md md:font-semibold flex gap-1 items-center">
-          <img width={25} src="public/FooterSection/logomark.svg" alt="" />
+          <img width={25} src="/FooterSection/logomark.svg" alt="" />
           <h2>Untitled UI</h2>
         </div>
         <div className="footer-text text-gray-500">
