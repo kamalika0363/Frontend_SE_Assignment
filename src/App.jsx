@@ -1,10 +1,12 @@
+import React from "react";
+import Features1 from "./components/Feature1/Features1";
 import UserSection from "./components/UserSection/UserSection";
 import FAQ from "./components/FAQSection";
 import Analytics from "./components/Analytics section/analytics";
 import Features from "./components/Features";
 import Footer from "./components/FooterSection";
-
 import Hero from "./components/HeroSection";
+
 function App() {
   return (
     <main>
