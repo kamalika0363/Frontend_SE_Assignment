@@ -14,6 +14,7 @@ function App() {
       <Features />
       <UserSection />
       <Analytics />
+      <Features1 />
       <FAQ />
       <Footer />
     </main>
