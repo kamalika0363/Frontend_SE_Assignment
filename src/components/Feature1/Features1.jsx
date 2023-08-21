@@ -1,4 +1,3 @@
-import React from 'react'
 import mail from '/Features1/cards/mail.svg'
 import zap from '/Features1/cards/zap.svg'
 import barchart from '/Features1/cards/bar-chart-2.svg'

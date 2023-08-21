@@ -1,12 +1,9 @@
-import mail from "../../../public/Features/mail.svg" 
-import zap from "../../../public/Features/zap.svg"
-import barChart from "../../../public/Features/bar-chart-2.svg"
-import smile from "../../../public/Features/smile.svg"
-import command from "../../../public/Features/command.svg"
-import message from "../../../public/Features/message-circle.svg"
-
-
-
+import mail from "/Features/mail.svg" 
+import zap from "/Features/zap.svg"
+import barChart from "/Features/bar-chart-2.svg"
+import smile from "/Features/smile.svg"
+import command from "/Features/command.svg"
+import message from "/Features/message-circle.svg"
 
 function Features (){
 
@@ -68,33 +65,28 @@ function Features (){
             <div className="flex justify-around flex-wrap gap-8 sm:px-28 ">
             {/* svgs */}
 
-                {FeaturesArr.map ((step)=>(
-                    
-                     <div className="flex items-center flex-col max-w-sm">
-                        {/* mail svg */}
-                                        
-                        <div className="mb-5 bg-[#F4EBFF] rounded-full border-[#F9F5FF] p-3 border-8">
-                            <img src={step.img}/>
+                {
+                    FeaturesArr.map ((step, index)=>(
+                        <div key={index} className="flex items-center flex-col max-w-sm">
+                            {/* mail svg */}
+                            <div className="mb-5 bg-[#F4EBFF] rounded-full border-[#F9F5FF] p-3 border-8">
+                                <img src={step.img}/>
+                            </div>
+                        
+                            <p className=" text-xl">
+                            {step.header}
+                            </p>
+                        
+                            <p className=" text-base text-[#667085] text-center">
+                            {step.subHead}
+                            </p>
                         </div>
-                    
-                        <p className=" text-xl">
-                        {step.header}
-                        </p>
-                    
-                        <p className=" text-base text-[#667085] text-center">
-                        {step.subHead}
-                        </p>
-                        </div>
-                    
-
-                )
-                )
+                    ))
                 }
 
             </div>
-            
         </div>
     )
 }
 
-export default Features
+export default Features;
