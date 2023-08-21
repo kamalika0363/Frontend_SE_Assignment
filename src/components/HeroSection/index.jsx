@@ -1,6 +1,23 @@
-import React from "react";
 
 function Hero() {
+  const card = [
+    {
+      img: "layers.svg", name: "Layers"
+    },
+    {
+      img: "sisyphus.svg", name: "Sisyphus"
+    },
+    {
+      img: "circooles.svg", name: "Circooles"
+    },
+    {
+      img: "catalog.svg", name: "Catalog"
+    },
+    {
+      img: "quotient.svg", name: "Quotient"
+    }
+  ]
+
   return (
     <section className="flex mx-2 md:mx-4 flex-col items-center gap-12 pt-24">
       <div className="top-container">
@@ -44,8 +61,9 @@ function Hero() {
         <p className="text-center text-sm mt-6 md:mt-10 text-gray-500">
           Join 4,000+ companies already growing
         </p>
-        <div className="company-section flex flex-col md:flex-row justify-between items-center md:mx-4 lg:mx-20 mt-8 mb-6 gap-8 md:gap-1">
-          <div className=" flex items-center gap-4 md:gap-2 company-1">
+
+        <div className="flex flex-col md:flex-row justify-between items-center md:mx-4 lg:mx-20 mt-8 mb-6 gap-8 md:gap-1">
+          {/* <div className=" flex items-center gap-4 md:gap-2">
             <div className="img-part">
               <img
                 className="md:w-7"
@@ -58,7 +76,8 @@ function Hero() {
               Layers
             </div>
           </div>
-          <div className=" flex items-center gap-4 md:gap-2 company-2">
+
+          <div className=" flex items-center gap-4 md:gap-2">
             <div className="img-part">
               <img
                 className="md:w-7"
@@ -71,7 +90,7 @@ function Hero() {
               Sisyphus
             </div>
           </div>
-          <div className=" flex items-center gap-4 md:gap-2 company-3">
+          <div className=" flex items-center gap-4 md:gap-2">
             <div className="img-part">
               <img
                 className="md:w-7"
@@ -84,7 +103,7 @@ function Hero() {
               Circooles
             </div>
           </div>
-          <div className=" flex items-center gap-4 md:gap-2 company-4">
+          <div className=" flex items-center gap-4 md:gap-2">
             <div className="img-part">
               <img
                 className="md:w-7"
@@ -109,7 +128,25 @@ function Hero() {
             <div className="text-part font-semibold  text-2xl md:text-lg">
               Quotient
             </div>
-          </div>
+          </div> */}
+          
+          {
+            card.map((item, index) => (
+              <div key={index} className=" flex items-center gap-4 md:gap-2">
+                <div className="img-part">
+                  <img
+                    className="md:w-7"
+                    width={40}
+                    src={`HeroSection/${item.img}`}
+                    alt=""
+                  />
+                </div>
+                <div className="text-part font-semibold text-2xl md:text-lg">
+                  {item.name}
+                </div>
+              </div>
+            ))
+          }
         </div>
       </div>
     </section>
@@ -117,12 +154,3 @@ function Hero() {
 }
 
 export default Hero;
-
-// display: flex;
-// padding: 4px 10px 4px 4px;
-// align-items: center;
-// gap: 12px;
-// p-4 pt-4 pr-10 pb-4 pl-4
-// border-radius: 16px;
-// background: var(--primary-50, #F9F5FF);
-// mix-blend-mode: multiply;
